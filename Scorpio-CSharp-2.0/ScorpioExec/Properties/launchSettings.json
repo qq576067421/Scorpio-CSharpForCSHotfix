@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "pack": {
+      "commandName": "Project",
+      "commandLineArgs": "pack -s ../../../test.sco -o ../../../test.il"
+    },
+    "fast": {
+      "commandName": "Project",
+      "commandLineArgs": "fast --class ScorpioExec.TestStruct -extension ScorpioExec.TestClassEx -o ../../../ "
+    },
+    "run": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../test.sco"
+    },
+    "version": {
+      "commandName": "Project",
+      "commandLineArgs": "version -c"
+    },
+    "delegate": {
+      "commandName": "Project",
+      "commandLineArgs": "delegate -o ../../../DelegateFactory.cs --class ScorpioExec.TestDelegate1;ScorpioExec.TestDelegate2;ScorpioExec.TestDelegate3;ScorpioExec.TestDelegate4"
+    },
+    "help": {
+      "commandName": "Project",
+      "commandLineArgs": "help"
+    },
+    "interface": {
+      "commandName": "Project",
+      "commandLineArgs": "interface --class ScorpioExec.TestInterface -o ../../../ "
+    }
+  }
+}
