@@ -1,1 +1,2 @@
 # Scorpio-CSharpForCSHotfix
+修改版的SCorpio-CSharp，用于CSHotFix的脚本引擎
